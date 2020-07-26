@@ -1,0 +1,136 @@
+.About-page {
+    box-sizing: border-box;
+    margin: 80px 20px 30px 20px;
+    font-size: 18px;
+}
+.App-container {
+
+}
+.App-container p {
+    margin: 20px 15px;
+    font-size: 1.2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    margin: 20px auto;
+    position: relative;
+    padding: 20px 15px;
+    /* background-color: #f7f7f8; */
+    border-radius: 5px;
+    border: none;
+}
+.Team-container {
+    margin-top: 40px;
+}
+.about-team {
+    display: flex;
+    /* width: 90vw; */
+    flex-wrap: wrap;
+    justify-items: center;
+    align-content: space-between;
+}
+.member-container {
+    margin: 20px auto;
+    position: relative;
+    padding: 20px 5px;
+    background-color: #fafafade;
+    border-radius: 5px;
+    border: none;
+}
+.member--titles h4 {
+    font-family: "Bebas Neue";
+    letter-spacing: 0.02rem;
+    margin-top: 20px;
+}
+.member--titles h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+.member--description {
+    width: 400px;
+    max-width: 80vw;
+    margin: 15px 15px 5px 15px;
+    font-size: 1.1rem;
+}
+.member--picture {
+    width: 200px;
+    max-width: 80vw;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.member--picture img {
+    width: 200px;
+    max-width: 80vw;
+    border-radius: 5px;
+    margin: 0 auto;
+    -webkit-transition: all 800ms ease;
+}
+.member--picture img:hover {
+    opacity: 0;
+    transition: all 1600ms ease;
+}
+#tam-div {
+    background-image: url(https://i.imgur.com/FZDMsjE.jpg);
+    background-size: cover;
+}
+#nick-div {
+    background-image: url(https://i.imgur.com/5OJH0me.jpg);
+    background-size: cover;
+}
+.member--links {
+
+}
+.member--links button {
+    width: 40px;
+    height: 40px;
+    padding: 6px 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    margin: 0 10px;
+    display: inline;
+    -webkit-transition: all 200ms ease;
+ }
+ .member--links button:hover {
+    width: 43px;
+    transition: all 200ms ease;
+ }
+
+ @media only screen and (min-width: 722px) {
+    .About-page {
+        margin: 70px 20px 0px 20px;
+        font-size: 15px;
+    }
+    .App-container p {
+        margin: 15px 100px;
+        font-size: 1rem;
+    }
+    .member--description {
+        font-size: 1rem;
+    }
+}
+ @media only screen and (min-width: 1024px) {
+    body { 
+       font-size: 15px;
+    }
+    .about-page {
+        align-content: space-around;
+        margin: 5vh 15vw;
+    }
+    .App-container p {
+        text-align: center;
+        margin: 20px 150px;
+    }
+    .Team-container {
+        margin: 5vh 3vw;
+    }
+    .member-container {
+        margin-bottom: 5vh;
+    }
+    .member--description {
+        font-size: 0.9rem;
+        padding: 0 10px;
+    }
+ }
+
