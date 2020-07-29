@@ -16,7 +16,7 @@ const Landing = (props) => {
                 </button>
             </div>
             <div className="Logo-Container">
-                <img className="Landing-logo" src="https://im5.ezgif.com/tmp/ezgif-5-af203b8f20e6.gif" alt="gist Logo"/>  
+                <img className="Landing-logo" src="https://s7.gifyu.com/images/ezgif.com-gif-makerf2dceeab40fe4b71.gif" alt="gist Logo"/>  
             </div>
         </div>
     );
