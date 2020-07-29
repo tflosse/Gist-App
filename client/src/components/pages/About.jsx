@@ -8,8 +8,10 @@ const About = () => {
     return(
         <div className="About-page Logged-views">
             <div className="App-container">
-                <h4>This Project</h4>
-                <p> We provide innovators, developers, and creators a communication 
+                <h4>About <span className="gist-brand">gist/</span></h4>
+                <p> <span className="gist-brand">gist/</span> was born of a collaboration between two Junior developers
+                looking for projects to build their portfolios. What started as a 
+                    We provide innovators, developers, and creators a communication 
                     platform to post, read, and comment on ideas. We encourage them 
                     to build new relationships over common interests and potential 
                     future ventures.</p>
