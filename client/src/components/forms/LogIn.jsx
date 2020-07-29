@@ -10,7 +10,7 @@ const LoginForm = (props) => {
       <h4 className="Form-Title">Log In</h4>
       <div className="Form-Container">
         <label>Email:</label>
-        <textarea
+        <input
           className="Email--input"
           placeholder="Your email address"
           value={props.email}

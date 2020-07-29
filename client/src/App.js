@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import axios from "axios";
 
+import Landing from './components/pages/Landing';
 import Login from "./components/pages/LogIn";
 import SignUp from "./components/pages/SignUp";
 
@@ -104,8 +105,17 @@ const App = (props) => {
   return (
     <div className="App">
       <Switch>
-        <Route
+      <Route
           path="/"
+          exact
+          render={(routerProps) => (
+            <Landing
+              {...routerProps}
+            />
+          )}
+        />
+        <Route
+          path="/login"
           exact
           render={(routerProps) => (
             <Login

@@ -3,6 +3,8 @@
 }
 
 .Form-Title {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.2px;
 
 }
 
@@ -14,12 +16,18 @@
 
 }
 
+.Email--input::placeholder, 
+.Password--input::placeholder, 
+.Username--input::placeholder {
+    font-family: 'Anonymous Pro', monospace;
+}
+
 .Login-buttons-container {
 
 }
 
 .submit {
-    
+
 }
 
 @media only screen and (min-width: 722px) {
